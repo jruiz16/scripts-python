@@ -1,0 +1,14 @@
+{
+    "news_api": {
+      "base_url": "http://newsapi.org/v2/top-headlines",
+      "api_key": "YOUR_API_KEY",
+      "sources": "bbc-news"
+    },
+    "horoscope": {
+      "base_url": "https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx"
+    },
+    "history": {
+      "base_url": "https://www.onthisday.com/"
+    }
+  }
+  

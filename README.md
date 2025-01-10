@@ -18,9 +18,22 @@ central_project/
 │   │   ├── main.py           # Main del proyecto Pomodoro
 │   │   ├── services/
 │   │   ├── ui/
+│   ├── daily_update/
+│   │   ├── main.py           # Main del proyecto Daily Update
+│   │   ├── services/
+│   │   │   ├── news_service.py
+│   │   │   ├── horoscope_service.py
+│   │   │   ├── history_service.py
+│   │   ├── ui/
+│   │   │   ├── app_ui.py
+│   │   ├── config/
+│   │   │   ├── config.json
 ├── tests/
 │   ├── test_project_service.py
 │   ├── test_timer_service.py
+│   ├── test_horoscope_service.py
+│   ├── test_news_service.py
+│   ├── test_history_service.py
 ├── README.md                 # Documentación del proyecto
 └── requirements.txt          # Dependencias comunes
 ```
@@ -73,6 +86,20 @@ Antes de ejecutar el proyecto, asegúrate de tener instalado:
    - Salir del centralizador.
 
 ---
+
+## **Proyectos Disponibles**
+
+### **1. Pomodoro**
+Un temporizador que sigue la técnica Pomodoro para mejorar la productividad, con opciones para iniciar, pausar y reiniciar.
+
+### **2. Daily Update**
+Este proyecto muestra información diaria en una interfaz gráfica, incluyendo:
+- Noticias del día.
+- Horóscopo diario para un signo seleccionado.
+- Eventos históricos ocurridos en la fecha actual.
+
+---
+
 
 ## **Ejecución de Tests**
 
